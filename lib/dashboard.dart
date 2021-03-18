@@ -50,7 +50,7 @@ class _DashboardState extends State<Dashboard> {
             selectedItemColor: Color(0xff4829b2),
             items: [
               BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/home.svg',
-                width: 20,height: 20,),
+                width: 20,height: 20),
                 title: Text('Home'),
               ),
               BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/medicine.svg',
